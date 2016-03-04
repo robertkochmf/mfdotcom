@@ -1,0 +1,176 @@
+//Main navigation
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  z-index: 3000;
+  transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  border-bottom: 1px solid transparent;
+
+  body.scrolled & {
+    background: white;
+    transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    height: 90px;
+    border-bottom: 1px solid $gray-light;
+    opacity: .95;
+  }
+}
+
+.nav-inner {
+  padding-top: 60px;
+  transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.left-nav {
+  width: 200px;
+  display: inline-block;
+}
+
+body.scrolled .nav-inner {padding-top: 30px;}
+
+.right-nav {
+  position: relative;
+  float: right;
+}
+
+.site-nav {
+  font-family: 'Maison Neue Bold';
+  color: $black;
+}
+
+.open-close {cursor: pointer;}
+
+.open-close p{line-height: 38px;}
+
+a.btn.small.btn-outline {padding-top:15px; padding-bottom: 14px;}
+
+// Hover effects on link items
+.site-nav a {
+  color: #FFFFFF;
+  position: relative;
+  padding: 6px 0;
+
+  body.scrolled & {
+    color: $brand-primary;
+  }
+
+  &:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    opacity: 0;
+    transition: transform .3s ease, background .3s linear;
+    transform: translateY(10px);
+  }
+}
+
+.site-nav a:hover {
+  text-decoration: none;
+
+  body.scrolled & {
+    &:after {
+      background: $brand-primary;
+    }
+  }
+
+  &:after {
+    opacity: 1;
+    background: #FFFFFF;
+    transform: translateY(0px);
+  }
+}
+
+body.scrolled header button {
+  color: $brand-primary;
+  border-color: $brand-primary;
+}
+
+.full-screen-menu {
+    opacity: 1;
+    position: fixed;
+    background: hsla(0,0%,100%,.93);;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    overflow: hidden;
+    transition: all 800ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transform: translate(0,-100%);
+
+    .inner-nav {
+      height: 100%;
+      width: 100%;
+      margin-top: 130px;
+      text-align: right;
+
+      .main-menu {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        li {
+          font-size: 1.5rem;
+          margin-bottom: 20px;
+          opacity: 0;
+          transition: all 300ms ease;
+
+          a {
+            color: $black;
+
+            &:hover {
+              color:$mf-green;
+            }
+          }
+
+          span {
+            font-size: 12px;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+}
+
+body.active .full-screen-menu .main-menu li {
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+.diamond path {fill: $black;transition: all 400ms ease-out}
+
+body.active .diamond path {
+  fill: $mf-green;
+  transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+}
+
+body.active {
+  .home-banner, .working-together-banner, .mf-home-values, footer {
+    filter: blur(4px);
+    transition: filter 600ms ease;
+  }
+}
+
+.diamond:hover {
+  path {
+    fill: $mf-green;
+    transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+  }
+}
+
+
+body.active .full-screen-menu {
+  z-index: 2500;
+  visibility: visible;
+  top: 0;
+  opacity: 1;
+  display: block !important;
+  transform: translate(0,0);
+  transition: all 700ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}

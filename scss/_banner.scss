@@ -1,0 +1,74 @@
+//Home Hero Banner
+
+.home-banner {
+  position: relative;
+  height: calc(100vh - 80px);
+  background-color: #FFFFFF;
+
+  .banner-image:before {
+    height: 100%;
+  }
+
+  .arrow {
+    position: fixed;
+    right: 5%;
+    bottom: 180px;
+    cursor: pointer;
+
+    &:hover {
+      animation: bounce 1.25s ease forwards;
+    }
+  }
+}
+
+//Page Hero Banner
+
+.content-wrapper {
+  position: relative;
+  height: 100%;
+  z-index: 2000;
+}
+
+.inner-copy {
+  position: absolute;
+  bottom: 80px;
+  text-align: left;
+
+  h1 {
+    color: $mf-green;
+    font-family: 'Maison Neue Bold';
+    font-size: 2.75rem;
+    margin-bottom: 15px;
+  }
+}
+
+
+//Working Together Home Banner
+.working-together-banner {
+  background-color: $mf-green;
+  height: 435px;
+
+  .inner-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    h4 {margin-bottom: 20px;}
+    h1,h4 {color: #FFFFFF;}
+
+    .arrow-link {
+      margin-top: 50px;
+      display: block;
+      color: #FFFFFF;
+
+      &:hover {
+        color: $gray;
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,31 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-about {
+  padding-top: 120px;
+  text-align: center;
+
+  h4 {
+    margin-bottom: 1.75rem;
+  }
+}
+
+
+//Styling for animated arrow
+svg.short-arrow {
+  vertical-align: middle;
+}
+
+// a:hover {
+//   svg.short-arrow {
+//     vertical-align: middle;
+//     transform: translateX(40%);
+//     transition: all .2s ease-in-out;
+//   }
+// }
+
+.arrow-link {
+    display: inline-block;
+    margin-right: 10px;
+}

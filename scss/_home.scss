@@ -1,0 +1,58 @@
+.mf-home-values {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-color: $gray-light;
+}
+
+.square-half-wrapper {
+
+}
+
+ol.values-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+
+  li.value-row {
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.value-row-content {
+  height: 100%;
+  width: 50%;
+}
+
+.value-row-content-inner {
+  height: 100%;
+  position: relative;
+  padding: 50px 40px;
+
+  .title {
+    h4 {margin-bottom: 12px;}
+  }
+
+  .link {
+    position: absolute;
+    bottom: 40px;
+
+    .short-arrow path {
+      fill: $mf-green;
+    }
+  }
+
+}
+
+.our-ventures, .our-clients {
+  background-position: 100% 0;
+}
+
+.our-people {
+  background-position: 0 100%;
+
+  .value-row-content {float:right;}
+}

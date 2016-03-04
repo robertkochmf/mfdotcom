@@ -1,0 +1,45 @@
+/*
+Theme Name: BE Law
+Theme URI: http://www.bottomsenglishlawyers.com
+Author: rokocodesign
+Author URI: http://www.bottomsenglishlawyers.com
+Description: The theme for BE Law
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: be law
+*/
+
+
+@import "custom-variables";
+
+// Bootstrap grid, type
+@import "bootstrap/variables";
+
+@import "bootstrap/mixins/clearfix";
+@import "bootstrap/mixins/breakpoints";
+@import "bootstrap/mixins/grid-framework";
+@import "bootstrap/mixins/grid";
+@import "bootstrap/mixins/hover";
+@import "bootstrap/mixins/tab-focus";
+@import "bootstrap/mixins/lists";
+
+@import "bootstrap/normalize";
+@import "bootstrap/reboot";
+
+@import "bootstrap/grid";
+
+// Content
+@import "type";
+@import "images";
+@import "animations";
+
+
+// Layout
+@import "global";
+@import "navigation";
+@import "banner";
+@import "footer";
+
+// Page Specific
+@import "home";

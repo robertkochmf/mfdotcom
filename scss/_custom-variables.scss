@@ -1,0 +1,83 @@
+// Font - Maison Neue
+@font-face {
+  font-family: 'Maison Neue Book';
+  src: url('/fonts/maisonneue-book.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Book Italic';
+  src: url('/fonts/maisonneue-bookitalic.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Medium';
+  src: url('/fonts/maisonneue-medium.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Bold';
+  src: url('/fonts/maisonneue-bold.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Bold Italic';
+  src: url('/fonts/maisonneue-bolditalic.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Mono';
+  src: url('/fonts/maisonneuemono.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// Colors
+
+$brand-primary:             #0181C6;
+$mf-green:                  #00DBBF;
+
+$black:                     #131E32;
+
+$gray:                      #F3F3F3;
+$gray-light:                #F2F5F7; //Bluish tinge
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                    #FFFFFF;
+$body-color:                 $black;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:     "Maison Neue Book", Helvetica, Arial, sans-serif;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root:             16px;
+
+$font-size-h1:               2.5rem;
+$font-size-h2:               2rem;
+$font-size-h3:               1.5rem;
+$font-size-h4:               0.875rem;
+
+$lead-font-size:             1.33rem;
+$lead-font-weight:           400;
+
+$headings-line-height:       1.25;
+
+$headings-color:             $black;
