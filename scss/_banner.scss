@@ -44,7 +44,7 @@
 
 
 //Working Together Home Banner
-.working-together-banner {
+.working-together-banner, .slim-banner {
   background-color: $mf-green;
   height: 435px;
 
@@ -56,11 +56,11 @@
     padding-left: 80px;
     padding-right: 80px;
 
-    h4 {margin-bottom: 20px;}
-    h1,h4 {color: #FFFFFF;}
+    h5 {margin-bottom: 20px;}
+    h1,h5 {color: #FFFFFF;}
 
     .arrow-link {
-      margin-top: 50px;
+      margin-top: 30px;
       display: block;
       color: #FFFFFF;
 
@@ -72,3 +72,15 @@
   }
 
 }
+
+.create-banner {
+  height: 600px;
+  width: 100%;
+  background-image: url(../../assets/create-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.slim-banner {height: 330px;}

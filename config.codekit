@@ -2,6 +2,72 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
+	"\/assets\/ahbeard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169633,
+		"inputAbbreviatedPath": "\/assets\/ahbeard.jpg",
+		"outputAbbreviatedPath": "\/assets\/ahbeard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/branddata.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6473,
+		"inputAbbreviatedPath": "\/assets\/branddata.jpg",
+		"outputAbbreviatedPath": "\/assets\/branddata.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/category-insights.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172444,
+		"inputAbbreviatedPath": "\/assets\/category-insights.jpg",
+		"outputAbbreviatedPath": "\/assets\/category-insights.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/create-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201718,
+		"inputAbbreviatedPath": "\/assets\/create-banner.jpg",
+		"outputAbbreviatedPath": "\/assets\/create-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/digitaleskimo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96400,
+		"inputAbbreviatedPath": "\/assets\/digitaleskimo.jpg",
+		"outputAbbreviatedPath": "\/assets\/digitaleskimo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/fitnessfirst.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206947,
+		"inputAbbreviatedPath": "\/assets\/fitnessfirst.jpg",
+		"outputAbbreviatedPath": "\/assets\/fitnessfirst.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/footer-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13,13 +79,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/grand-social.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24228,
+		"inputAbbreviatedPath": "\/assets\/grand-social.jpg",
+		"outputAbbreviatedPath": "\/assets\/grand-social.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/happyteams.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91232,
+		"inputAbbreviatedPath": "\/assets\/happyteams.jpg",
+		"outputAbbreviatedPath": "\/assets\/happyteams.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/hero-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.4808e+06,
+		"inputAbbreviatedPath": "\/assets\/hero-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/hero-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135445,
+		"inputAbbreviatedPath": "\/assets\/hero-bg2.jpg",
+		"outputAbbreviatedPath": "\/assets\/hero-bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/home-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 516415,
+		"initialSize": 89019,
 		"inputAbbreviatedPath": "\/assets\/home-image.jpg",
 		"outputAbbreviatedPath": "\/assets\/home-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/home-image2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.50019e+06,
+		"inputAbbreviatedPath": "\/assets\/home-image2.jpg",
+		"outputAbbreviatedPath": "\/assets\/home-image2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/museum.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210673,
+		"inputAbbreviatedPath": "\/assets\/museum.jpg",
+		"outputAbbreviatedPath": "\/assets\/museum.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/nick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10642,
+		"inputAbbreviatedPath": "\/assets\/nick.jpg",
+		"outputAbbreviatedPath": "\/assets\/nick.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -57,6 +200,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/schwarzkopf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110307,
+		"inputAbbreviatedPath": "\/assets\/schwarzkopf.jpg",
+		"outputAbbreviatedPath": "\/assets\/schwarzkopf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/soda-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -75,6 +229,17 @@
 		"initialSize": 9725,
 		"inputAbbreviatedPath": "\/assets\/soda-logo.png",
 		"outputAbbreviatedPath": "\/assets\/soda-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/tractor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4626,
+		"inputAbbreviatedPath": "\/assets\/tractor.jpg",
+		"outputAbbreviatedPath": "\/assets\/tractor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -221,6 +386,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/vendor\/jquery.parallaxify.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/jquery.parallaxify.min.js",
+		"outputAbbreviatedPath": "\/js\/dist\/js\/jquery.parallaxify.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/vendor\/jquery.shuffle.modernizr.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -300,6 +476,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_banner.scss",
 		"outputAbbreviatedPath": "\/dist\/css\/_banner.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/_change.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_change.scss",
+		"outputAbbreviatedPath": "\/dist\/css\/_change.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/_create.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_create.scss",
+		"outputAbbreviatedPath": "\/dist\/css\/_create.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

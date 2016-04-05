@@ -1,0 +1,74 @@
+.our-services, .tools, .ventures, .case-studies {
+  padding-top: 100px;
+  padding-bottom: 0px;
+
+  .content-wrapper {
+    padding-bottom: 100px;
+    border-bottom: 1px solid $gray-light;
+  }
+
+  .content-title {
+    margin-bottom: 60px;
+  }
+
+  .media {
+    height: 180px;
+    background-color: $black-2;
+    margin-bottom: 1.125rem;
+  }
+
+  .content {
+    h4 {margin-bottom: 1rem;}
+  }
+
+  .venture-item {
+    .media {
+      height: 100%;
+    }
+  }
+}
+
+.our-services {
+  padding-top: 120px;
+}
+
+
+.tools .content-title, .our-services .content-title {
+  margin-bottom: 60px;
+}
+
+.tool-row, .case-row {
+  margin-bottom: 40px;
+}
+
+.single-case .media {
+  height: 100%;
+}
+.strategic {
+  padding-bottom: 140px;
+
+}
+.services-intro {
+  margin-bottom: 60px;
+}
+
+.services-list {
+  h4 {margin-bottom: 1rem;}
+}
+
+.services-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    // margin-bottom: .5rem;
+    p {
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+.strategic .services-list ul {
+  columns: 2;
+}

@@ -9,8 +9,7 @@ $(document).ready(function() {
 				jQuery('.top-header.headhesive').removeClass('headhesive--stick');
 			}
 	});
-
-
+  
   // Scroll Fade In
   $('.scroll-fade-in, .scroll-fade-in-late').viewportChecker({
     classToAdd: 'show',
@@ -20,6 +19,19 @@ $(document).ready(function() {
   // $('.main-menu ul li a').hover(function () {
   //   $('#nav-container .window .inner').toggleClass('off');
   // });
+
+  $('.main-nav li a.happy').hover(function () {
+    $('.emoji-happy').toggleClass('emojify');
+  });
+
+  $('.main-nav li a.create').hover(function () {
+    $('.emoji-create').toggleClass('emojify');
+  });
+
+  $('.main-nav li a.change').hover(function () {
+    $('.emoji-change').toggleClass('emojify');
+  });
+
 
   $('.main-menu li a.happy').hover(function () {
     $('.emoji-happy').toggleClass('emojify');
