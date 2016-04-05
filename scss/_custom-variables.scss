@@ -1,42 +1,42 @@
 // Font - Maison Neue
 @font-face {
   font-family: 'Maison Neue Book';
-  src: url('/fonts/maisonneue-book.woff');
+  src: url('../../fonts/maisonneue-book.woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maison Neue Book Italic';
-  src: url('/fonts/maisonneue-bookitalic.woff');
+  src: url('../../fonts/maisonneue-bookitalic.woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maison Neue Medium';
-  src: url('/fonts/maisonneue-medium.woff');
+  src: url('../../fonts/maisonneue-medium.woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maison Neue Bold';
-  src: url('/fonts/maisonneue-bold.woff');
+  src: url('../../fonts/maisonneue-bold.woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maison Neue Bold Italic';
-  src: url('/fonts/maisonneue-bolditalic.woff');
+  src: url('../../fonts/maisonneue-bolditalic.woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maison Neue Mono';
-  src: url('/fonts/maisonneuemono.ttf');
+  src: url('../../fonts/maisonneuemono.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -46,9 +46,10 @@
 // Colors
 
 $brand-primary:             #0181C6;
-$mf-green:                  #00DBBF;
+$mf-green:                  #0FDBC1;
 
 $black:                     #131E32;
+$black-2:                   #1B1B1B;
 
 $gray:                      #F3F3F3;
 $gray-light:                #F2F5F7; //Bluish tinge

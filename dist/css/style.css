@@ -11,37 +11,37 @@ Text Domain: be law
 */
 @font-face {
   font-family: 'Maison Neue Book';
-  src: url("/fonts/maisonneue-book.woff");
+  src: url("../../fonts/maisonneue-book.woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Maison Neue Book Italic';
-  src: url("/fonts/maisonneue-bookitalic.woff");
+  src: url("../../fonts/maisonneue-bookitalic.woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Maison Neue Medium';
-  src: url("/fonts/maisonneue-medium.woff");
+  src: url("../../fonts/maisonneue-medium.woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Maison Neue Bold';
-  src: url("/fonts/maisonneue-bold.woff");
+  src: url("../../fonts/maisonneue-bold.woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Maison Neue Bold Italic';
-  src: url("/fonts/maisonneue-bolditalic.woff");
+  src: url("../../fonts/maisonneue-bolditalic.woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Maison Neue Mono';
-  src: url("/fonts/maisonneuemono.ttf");
+  src: url("../../fonts/maisonneuemono.ttf");
   font-weight: normal;
   font-style: normal; }
 
@@ -1076,12 +1076,12 @@ hr {
   font-weight: 500; }
 
 a {
-  color: #00DBBF;
+  color: #0FDBC1;
   -webkit-transition: all .3s ease 0s;
   transition: all .3s ease 0s; }
 
 a:focus, a:hover {
-  color: #00a893;
+  color: #0cab97;
   text-decoration: none; }
 
 small,
@@ -1303,7 +1303,7 @@ body.scrolled header button {
 .full-screen-menu {
   opacity: 1;
   position: fixed;
-  background: rgba(255, 255, 255, 0.93);
+  background: rgba(255, 255, 255, 0.98);
   opacity: 0;
   visibility: hidden;
   width: 100%;
@@ -1317,7 +1317,7 @@ body.scrolled header button {
   .full-screen-menu .inner-nav {
     height: 100%;
     width: 100%;
-    margin-top: 130px;
+    margin-top: 120px;
     text-align: right; }
     .full-screen-menu .inner-nav .main-menu {
       list-style-type: none;
@@ -1325,7 +1325,7 @@ body.scrolled header button {
       margin-top: 0;
       margin-bottom: 0; }
       .full-screen-menu .inner-nav .main-menu li {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-bottom: 20px;
         opacity: 0;
         -webkit-transition: all 300ms ease;
@@ -1333,10 +1333,12 @@ body.scrolled header button {
         .full-screen-menu .inner-nav .main-menu li a {
           color: #131E32; }
           .full-screen-menu .inner-nav .main-menu li a:hover {
-            color: #00DBBF; }
+            color: #0FDBC1; }
         .full-screen-menu .inner-nav .main-menu li span {
           font-size: 12px;
           padding-left: 10px; }
+      .full-screen-menu .inner-nav .main-menu li.secondary {
+        font-size: 1.5rem; }
 
 body.active .full-screen-menu .main-menu li {
   opacity: 1;
@@ -1349,20 +1351,12 @@ body.active .full-screen-menu .main-menu li {
   transition: all 400ms ease-out; }
 
 body.active .diamond path {
-  fill: #00DBBF;
+  fill: #0FDBC1;
   -webkit-transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53);
   transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53); }
 
-body.active .home-banner, body.active .working-together-banner, body.active .mf-home-values, body.active footer {
-  -webkit-filter: blur(4px);
-          filter: blur(4px);
-  -webkit-transition: -webkit-filter 600ms ease;
-  transition: -webkit-filter 600ms ease;
-  transition: filter 600ms ease;
-  transition: filter 600ms ease, -webkit-filter 600ms ease; }
-
 .diamond:hover path {
-  fill: #00DBBF;
+  fill: #0FDBC1;
   -webkit-transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53);
   transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53); }
 
@@ -1402,13 +1396,13 @@ body.active .full-screen-menu {
   bottom: 80px;
   text-align: left; }
   .inner-copy h1 {
-    color: #00DBBF;
+    color: #0FDBC1;
     font-family: 'Maison Neue Bold';
     font-size: 2.75rem;
     margin-bottom: 15px; }
 
 .working-together-banner {
-  background-color: #00DBBF;
+  background-color: #0FDBC1;
   height: 435px; }
   .working-together-banner .inner-content {
     position: relative;
@@ -1433,7 +1427,7 @@ footer {
   height: 550px;
   padding-bottom: 115px;
   position: relative;
-  background-image: url(/assets/footer-bg.jpg);
+  background-image: url(../../assets/footer-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -1456,9 +1450,9 @@ footer {
       footer .inner-content .office-details .office a {
         color: #131E32; }
         footer .inner-content .office-details .office a:hover {
-          color: #00DBBF; }
+          color: #0FDBC1; }
           footer .inner-content .office-details .office a:hover h5 {
-            color: #00DBBF;
+            color: #0FDBC1;
             -webkit-transition: all .3s ease 0s;
             transition: all .3s ease 0s; }
       footer .inner-content .office-details .office a.email {
@@ -1488,7 +1482,7 @@ footer {
         .footer .social ul li a {
           color: #131E32; }
           .footer .social ul li a:hover {
-            color: #00DBBF; }
+            color: #0FDBC1; }
   .footer .soda {
     display: inline-block;
     width: 24%;
@@ -1527,7 +1521,7 @@ ol.values-list {
     position: absolute;
     bottom: 40px; }
     .value-row-content-inner .link .short-arrow path {
-      fill: #00DBBF; }
+      fill: #0FDBC1; }
 
 .our-ventures, .our-clients {
   background-position: 100% 0; }
@@ -1536,4 +1530,312 @@ ol.values-list {
   background-position: 0 100%; }
   .our-people .value-row-content {
     float: right; }
+
+#nav-container {
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-color: #1B1B1B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  #nav-container .diamond path {
+    fill: #0FDBC1;
+    -webkit-transition: all 400ms ease-out;
+    transition: all 400ms ease-out; }
+  #nav-container .open-close p {
+    color: #0FDBC1;
+    font-size: 1.75rem;
+    line-height: 1; }
+  #nav-container .bottom-header {
+    margin-bottom: 2%; }
+  #nav-container .bottom-header .nav-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0; }
+    #nav-container .bottom-header .nav-inner .middle-nav {
+      display: inline-block; }
+  #nav-container p.logo {
+    display: inline-block;
+    color: #0FDBC1;
+    margin: 0;
+    font-family: 'Maison Neue Medium'; }
+  #nav-container .center-container {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%; }
+  #nav-container .main-nav {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 100; }
+    #nav-container .main-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      #nav-container .main-nav ul li {
+        display: inline-block;
+        margin-right: 80px; }
+        #nav-container .main-nav ul li:last-child {
+          margin-right: 0; }
+        #nav-container .main-nav ul li a {
+          font-size: 60px;
+          color: #FFFFFF;
+          font-family: 'Maison Neue Medium';
+          -webkit-transition: none;
+          transition: none; }
+          body.active #nav-container .main-nav ul li a {
+            color: #0FDBC1; }
+          #nav-container .main-nav ul li a:hover {
+            color: #0FDBC1;
+            -webkit-transition: none;
+            transition: none; }
+  #nav-container .window {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    max-height: 530px;
+    height: 100%;
+    width: 360px;
+    box-shadow: 0px 0px 100px 0px black;
+    background-color: #1B1B1B;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 10; }
+    #nav-container .window .inner {
+      height: 100%;
+      width: 100%;
+      background-position: center right;
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: .8;
+      overflow: hidden; }
+      #nav-container .window .inner video {
+        min-height: 100%; }
+
+.arrow {
+  cursor: pointer; }
+  .arrow:hover {
+    -webkit-animation: bounce 1.25s ease forwards;
+            animation: bounce 1.25s ease forwards; }
+
+@-webkit-keyframes shrink {
+  0% {
+    background-size: 150% 150%; }
+  100% {
+    background-size: 100% 100%; } }
+
+@keyframes shrink {
+  0% {
+    background-size: 150% 150%; }
+  100% {
+    background-size: 100% 100%; } }
+
+#nav-container .window .inner.off {
+  background-image: none; }
+
+.top-header {
+  width: 100%; }
+
+.top-header .nav-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.nav-inner.container:after {
+  content: none; }
+
+.left-nav {
+  display: inline-block;
+  width: auto;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
+          align-items: flex-start; }
+
+.middle-nav {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.right-nav {
+  display: inline-block;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+              -ms-grid-row-align: flex-end;
+          align-items: flex-end;
+  z-index: 20000; }
+
+.emoji-happy {
+  visibility: hidden; }
+  .emoji-happy:before {
+    content: "\01F603";
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    font-size: 40px;
+    z-index: 1; }
+
+.emoji-create {
+  visibility: hidden; }
+  .emoji-create:before {
+    content: "\02615";
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 40px;
+    z-index: 1; }
+
+.emoji-change {
+  visibility: hidden; }
+  .emoji-change:before {
+    content: "\01F52E";
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    font-size: 50px;
+    z-index: 1; }
+
+.emojify {
+  visibility: visible; }
+
+.headhesive {
+  /* Required styles */
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  /* Additional styles */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  /* Translate -100% to move off screen */
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  /* Animations */
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; }
+
+.headhesive--stick {
+  /* Translate back to 0%; */
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%); }
+
+.headhesive .nav-inner {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+  .headhesive .nav-inner .open-close {
+    display: inline-block; }
+    .headhesive .nav-inner .open-close p {
+      color: #0FDBC1;
+      font-size: 1.5rem;
+      line-height: 1;
+      margin: 0; }
+
+.headhesive .right-nav .main-menu, .top-header .right-nav .main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .headhesive .right-nav .main-menu li, .top-header .right-nav .main-menu li {
+    display: inline-block;
+    margin-right: 30px; }
+    .headhesive .right-nav .main-menu li:last-child, .top-header .right-nav .main-menu li:last-child {
+      margin: 0; }
+
+body.happy li a.happy {
+  border-bottom: 2px solid #0FDBC1; }
+
+body.create li a.create {
+  border-bottom: 2px solid #0FDBC1; }
+
+body.change li a.change {
+  border-bottom: 2px solid #0FDBC1; }
+
+.page-nav {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.page-intro {
+  position: relative;
+  height: 100%;
+  padding-top: 120px;
+  padding-bottom: 100px; }
+  .page-intro .inner-copy {
+    position: relative;
+    bottom: 0; }
+    .page-intro .inner-copy h3 {
+      margin-bottom: 30px; }
+
+.learn, .grow {
+  padding-top: 120px;
+  padding-bottom: 40px; }
+  .learn .media, .grow .media {
+    height: 180px;
+    background-color: #1B1B1B; }
 /*# sourceMappingURL=style.css.map */

@@ -93,7 +93,7 @@ body.scrolled header button {
 .full-screen-menu {
     opacity: 1;
     position: fixed;
-    background: hsla(0,0%,100%,.93);;
+    background: hsla(0,0%,100%,.98);;
     opacity: 0;
     visibility: hidden;
     width: 100%;
@@ -106,7 +106,7 @@ body.scrolled header button {
     .inner-nav {
       height: 100%;
       width: 100%;
-      margin-top: 130px;
+      margin-top: 120px;
       text-align: right;
 
       .main-menu {
@@ -116,7 +116,7 @@ body.scrolled header button {
         margin-bottom: 0;
 
         li {
-          font-size: 1.5rem;
+          font-size: 2rem;
           margin-bottom: 20px;
           opacity: 0;
           transition: all 300ms ease;
@@ -134,9 +134,14 @@ body.scrolled header button {
             padding-left: 10px;
           }
         }
+
+        li.secondary {
+          font-size: 1.5rem;
+        }
       }
     }
 }
+
 
 body.active .full-screen-menu .main-menu li {
   opacity: 1;
@@ -150,12 +155,12 @@ body.active .diamond path {
   transition: all 1s cubic-bezier(0.64, 0.57, 0.67, 1.53);
 }
 
-body.active {
-  .home-banner, .working-together-banner, .mf-home-values, footer {
-    filter: blur(4px);
-    transition: filter 600ms ease;
-  }
-}
+// body.active {
+//   .home-banner, .working-together-banner, .mf-home-values, footer {
+//     filter: blur(4px);
+//     transition: filter 600ms ease;
+//   }
+// }
 
 .diamond:hover {
   path {
