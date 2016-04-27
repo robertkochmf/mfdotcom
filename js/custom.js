@@ -3,13 +3,13 @@ $(document).ready(function() {
   // Sticky Navigation
   $(window).scroll( function() {
 
-			if ( $(this).scrollTop() >= $('.top-header').height() ) {
-				$('.top-header.headhesive').addClass('headhesive--stick');
+			if ( $(this).scrollTop() >= $('nav').height() ) {
+				$('body').addClass('scrolled');
 			} else {
-				jQuery('.top-header.headhesive').removeClass('headhesive--stick');
+				jQuery('body').removeClass('scrolled');
 			}
-	});
-  
+		});
+
   // Scroll Fade In
   $('.scroll-fade-in, .scroll-fade-in-late').viewportChecker({
     classToAdd: 'show',

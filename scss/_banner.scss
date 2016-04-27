@@ -2,7 +2,7 @@
 
 .home-banner {
   position: relative;
-  height: calc(100vh - 80px);
+  height: 100%;
   background-color: #FFFFFF;
 
   .banner-image:before {
@@ -27,17 +27,21 @@
   position: relative;
   height: 100%;
   z-index: 2000;
+  margin-bottom: 120px;
 }
 
 .inner-copy {
-  position: absolute;
-  bottom: 80px;
+  position: relative;
+  margin-top: 300px;
   text-align: left;
 
   h1 {
-    color: $mf-green;
-    font-family: 'Maison Neue Bold';
+    font-family: 'Maison Neue Medium';
     font-size: 2.75rem;
+    margin-bottom: 15px;
+  }
+
+  h5 {
     margin-bottom: 15px;
   }
 }

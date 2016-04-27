@@ -145,6 +145,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/home-square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10182e+06,
+		"inputAbbreviatedPath": "\/assets\/home-square.jpg",
+		"outputAbbreviatedPath": "\/assets\/home-square.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40575,
+		"inputAbbreviatedPath": "\/assets\/home.jpg",
+		"outputAbbreviatedPath": "\/assets\/home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/museum.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
