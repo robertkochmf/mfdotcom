@@ -1210,6 +1210,61 @@ img {
     -webkit-transform: translateY(-15px);
             transform: translateY(-15px); } }
 
+.btn {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Maison Neue Mono";
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFFFFF;
+  border-radius: 0px;
+  z-index: 1;
+  overflow: hidden; }
+  .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+    outline: 0; }
+  .btn:focus, .btn:hover {
+    text-decoration: none; }
+  .btn.focus {
+    text-decoration: none;
+    outline: 0; }
+  .btn:active, .btn.active {
+    background-image: none;
+    outline: 0; }
+  .btn.disabled, .btn:disabled {
+    cursor: pointer;
+    opacity: .65; }
+
+.btn-primary {
+  background-color: #0FDBC1; }
+  .btn-primary:hover {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out; }
+
+.btn-outline {
+  background-color: transparent;
+  border-color: #FFFFFF; }
+  .btn-outline:hover {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #0181C6; }
+
 body {
   -webkit-font-smoothing: antialiased; }
 
@@ -1523,66 +1578,81 @@ main.content-area {
   height: 100%;
   position: relative; }
 
-ol.values-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #FFFFFF; }
-  ol.values-list li.value-row {
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: contain; }
+.intro-hero-content {
+  padding-top: 230px;
+  height: 80vh; }
+  .intro-hero-content .content-block h5 {
+    margin-bottom: 1rem; }
+  .intro-hero-content .content-block h1 {
+    margin-bottom: 2.5rem; }
 
-.value-row-content {
-  height: 100%;
-  width: 50%; }
-
-.value-row-content-inner {
-  height: 100%;
-  position: relative;
-  padding: 50px 40px; }
-  .value-row-content-inner .title h4 {
-    margin-bottom: 12px; }
-  .value-row-content-inner .link {
-    position: absolute;
-    bottom: 40px; }
-    .value-row-content-inner .link .short-arrow path {
-      fill: #0FDBC1; }
-
-.our-ventures, .our-clients {
-  background-position: 100% 0; }
-
-.our-people {
-  background-position: 0 100%; }
-  .our-people .value-row-content {
-    float: right; }
-
-.center-container {
+.intro-hero-media .media-block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%; }
 
-.feature-image {
-  position: absolute;
-  right: 0;
-  bottom: -150%;
-  height: 470px;
-  width: 750px;
-  z-index: -1; }
+.image-caption {
+  display: block;
+  border-bottom: 4px solid #0FDBC1;
+  font-family: "Maison Neue Mono";
+  font-size: .75rem; }
+  .image-caption span {
+    display: block;
+    padding-bottom: 12px; }
+
+.image-caption--left {
+  text-align: left;
+  padding-left: 0px; }
+
+.image-caption--right {
+  text-align: right;
+  padding-right: 0px; }
+
+.client-logos {
+  padding: 140px 0 80px 0; }
+  .client-logos .logo-block {
+    text-align: center; }
+    .client-logos .logo-block ul.logos {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 0;
+          -ms-flex: 1 1 0;
+              flex: 1 1 0;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      margin-top: 40px; }
+      .client-logos .logo-block ul.logos li.logo {
+        margin: 20px;
+        width: 20%; }
 
 .values {
-  margin-top: 600px; }
+  padding-top: 80px; }
 
 .value-wrapper {
   display: -webkit-box;
@@ -1607,7 +1677,7 @@ ol.values-list {
   .value-content .link {
     margin-top: 40px; }
 
-.value-media::after {
+.value-media::after, .landscape-image::after {
   content: "";
   display: block;
   height: 100%;
@@ -1624,10 +1694,10 @@ ol.values-list {
   top: -100px;
   left: -100px; }
 
-.value-media.bottom-right img {
+.value-media.bottom-right img, .landscape-image.bottom-right img {
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.08); }
 
-.value-media.bottom-right:after {
+.value-media.bottom-right:after, .landscape-image.bottom-right:after {
   bottom: -100px;
   right: -100px; }
 

@@ -9,76 +9,80 @@ main.content-area {
   position: relative;
 }
 
-ol.values-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #FFFFFF;
+// Intro Hero
 
-  li.value-row {
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: contain;
+.intro-hero-content {
+  padding-top: 230px;
+  // padding-bottom: 120px;
+  height: 80vh;
+
+  .content-block {
+    h5 {margin-bottom: 1rem;}
+    h1 {margin-bottom: 2.5rem;}
   }
 }
 
-.value-row-content {
-  height: 100%;
-  width: 50%;
+.intro-hero-media {
+  .media-block {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+  }
 }
 
-.value-row-content-inner {
-  height: 100%;
-  position: relative;
-  padding: 50px 40px;
-
-  .title {
-    h4 {margin-bottom: 12px;}
+.image-caption {
+  display: block;
+  border-bottom: 4px solid $mf-green;
+  font-family: "Maison Neue Mono";
+  font-size: .75rem;
+  span {
+    display: block;
+    padding-bottom: 12px;
   }
+}
 
-  .link {
-    position: absolute;
-    bottom: 40px;
+.image-caption--left {
+  text-align: left;
+  padding-left: 0px;
+}
 
-    .short-arrow path {
-      fill: $mf-green;
+.image-caption--right {
+  text-align: right;
+  padding-right: 0px;
+}
+
+// Client Logos
+
+.client-logos {
+  padding: 140px 0 80px 0;
+
+  .logo-block {
+    text-align: center;
+
+    ul.logos {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      flex: 1 1 0;
+      flex-wrap: wrap;
+      margin-top: 40px;
+
+      li.logo {
+        margin: 20px;
+        width: 20%;
+      }
     }
   }
-
 }
 
-.our-ventures, .our-clients {
-  background-position: 100% 0;
-}
-
-.our-people {
-  background-position: 0 100%;
-
-  .value-row-content {float:right;}
-}
-
-
-.center-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  // background-color: blue;
-}
-
-.feature-image {
-  position: absolute;
-  right: 0;
-  bottom: -150%;
-  height: 470px;
-  width: 750px;
-  z-index: -1;
-}
-
-//Home Page Value Module
+//Shadow Image/Copy Module
 
 .values {
-  margin-top: 600px;
+  padding-top: 80px;
 }
 .value-wrapper {
     display: flex;
@@ -97,8 +101,7 @@ ol.values-list {
   }
 }
 
-
-.value-media {
+.value-media, .landscape-image {
   &::after {
     content:"";
     display: block;
@@ -115,7 +118,7 @@ ol.values-list {
   &:after {top: -100px; left: -100px;}
 }
 
-.value-media.bottom-right {
+.value-media.bottom-right, .landscape-image.bottom-right {
   img {box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.08);}
   &:after {bottom: -100px; right: -100px;}
 }

@@ -10,10 +10,10 @@ License URI: license.txt
 Text Domain: be law
 */
 
-
+// Utilities
 @import "custom-variables";
 
-// Bootstrap grid, type
+// Vendor
 @import "bootstrap/variables";
 
 @import "bootstrap/mixins/clearfix";
@@ -34,6 +34,8 @@ Text Domain: be law
 @import "images";
 @import "animations";
 
+// Components
+@import "buttons";
 
 // Layout
 @import "global";
@@ -41,7 +43,7 @@ Text Domain: be law
 @import "banner";
 @import "footer";
 
-// Page Specific
+// Pages
 @import "home";
 
 @import "nav-proto";
