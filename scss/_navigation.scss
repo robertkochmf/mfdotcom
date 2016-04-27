@@ -24,17 +24,57 @@
   transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
-.left-nav {
-  width: 200px;
-  display: inline-block;
-}
-
 body.scrolled .nav-inner {padding-top: 30px;}
 
-.right-nav {
-  position: relative;
-  float: right;
+.left-nav {
+  display: inline-block;
+  width: auto;
+  align-items: flex-start;
+
 }
+.middle-nav {
+  align-items: center;
+  justify-content: center;
+}
+
+.right-nav {
+  display: inline-block;
+  align-items: flex-end;
+  z-index: 20000;
+}
+
+.top-header .nav-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-inner.container:after {content: none;}
+
+
+.main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin-right: 34px;
+    font-family: "Maison Neue Medium";
+
+    &:last-child {
+      margin: 0;
+    }
+
+    a {
+      color: $black-2;
+
+      &:hover {color: $mf-green;}
+    }
+
+  }
+}
+
 
 .site-nav {
   font-family: 'Maison Neue Bold';
